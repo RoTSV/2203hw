@@ -3,9 +3,8 @@ body {
     margin: 0;
 }
 .container {
-    max-width: 1000px;
     margin: 0 auto;
-    padding: 0 20px;
+    
 }
 h1 {
     font-family: 'Graphik', sans-serif;
@@ -30,14 +29,13 @@ hr {
     margin-right: -1px;
     margin-bottom: -10px;
 }
+
 .home {
     position: relative;
     background-color: black;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
-    width: 100%;
     padding: 140px 0;
 }
 .home-text {
@@ -69,7 +67,7 @@ hr {
     padding-right: 5px;
 }
 .home-items {
-    max-width: 1000px;
+    
     height: 88%;
     position: absolute;
     z-index: 1;
@@ -127,7 +125,7 @@ hr {
 .design-caption1 img {
     width: 400px;
     height: 200px;
-    border: 1px solid #ddd7d7;
+    
 }
 .design-caption1-outset {
     position: relative;
@@ -148,7 +146,7 @@ hr {
 .design-caption2 img {
     width: 400px;
     height: 200px;
-    border: 1px solid #ddd7d7;
+    
 }
 .design-caption3 {
     width: 80%;
@@ -566,4 +564,372 @@ tr {
 }
 .creator-social i {
     font-size: 25px;  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .home {
+        width: 100%;
+        height: 180px;
+        padding: 10px 0;
+        position: relative;
+        margin: 0;
+    }
+    .home-text {
+        width: 75%;
+        display: flex;
+        margin-right: 50px;   
+    }
+    .home-text img {
+        width: 40px;
+        height: 20px;
+        align-self: flex-start;
+    }
+    .text-header {
+        font-size: 9px;
+        width: 75%;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .home-text a {
+        margin-top: -45px;
+        font-size: 12px;
+    }
+    .items-img {
+        width: 190px;
+        height: 160px;
+        position: absolute;
+        right: -35px;
+        bottom: -10px;
+    }
+    .home-backg {
+        position: absolute;
+        background-image: url(../img/Group-mob8.png) ;
+        background-size: cover;
+        right: 0;
+        width: 220px;
+        height: 210px;
+    }
+    .task {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        padding-top: 10px;
+    }
+    .task-text {
+        width: 80%;
+        margin: 0;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .task-text h1 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .task-text p {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .design {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;  
+    }
+    .design-caption0 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;   
+    }
+    .design-caption0 h1 {
+        font-size: 18px;
+        text-align: center;
+        margin: 0;
+    }
+    .design-caption1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .design-caption1-slade {
+        align-self: center;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .design-caption1-slade img {
+        width: 80%;
+        padding: 0;
+        margin-left: 35px;
+    }
+    .design-caption1-outset {
+        width: 80%;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+    }
+    .design-caption1-outset h2 {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .design-caption1-outset hr {
+        position: relative;
+        margin-inline-start: 10px;
+        width: 20%;
+    }
+    .design-caption2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .design-caption2 img {
+        padding-top: 10px;
+        width: 80%;
+    }
+    .design-caption3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .design-caption3 img {
+       margin-top: 10px;
+       width: 80%;
+       padding: 0;
+    }
+    .design-caption-backg {
+        width: 99%;
+        height:40%;
+        position: absolute;
+        left: -14px;
+        top: 400px;
+    }
+    .booking-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+        width: 80%;
+        text-align: center;
+        padding: 0;
+    }
+    .booking-header h1 {
+        font-size: 18px;
+
+    }
+    .booking-header p {
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .booking-icons {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .table-title {
+        padding: 0;
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .table-head {
+        padding: 0;
+        width: 96%;
+        font-size: 12px;
+    }
+    .table-head th {
+        padding: 0;
+        font-size: 10px;
+    }
+    .table-head td {
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+    }
+    span {
+        font-size: 10px;
+    }
+    .table-title h3 {
+        font-size: 15px;
+        text-align: left;
+        align-self: flex-start;
+        margin-left: 8px;
+    }
+    .mobile {
+        width: 100%;
+    }
+    .mobile-header {
+        color: #ffffff;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .mobile-header h1 {
+        width: 90%;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .mobile-header p {
+        padding: 0;
+        margin: 0;
+        width:90%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .mobile-info {
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .mobile-info div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    .mobile-info h1 {
+        padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .mobile-info p {
+        width: 100%;
+        padding: 0;
+        font-size: 12px;
+        text-align: center;
+    }
+    .mobile-footer {
+        padding: 0;
+        width: 100%;
+        position: relative;
+    }
+    .mobile-footer-outset {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .mobile-footer-outset h1 {
+        width: 100%;
+        font-size: 18px;
+    }
+    .mobile-footer-outset p {
+        color: rgb(207, 205, 205);
+        width: 55%;
+        font-size: 12px; 
+        text-align: start;  
+    }
+    .mobile-footer-image {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        width: 50%;
+        height: 200px;
+        margin-right: 5px;
+    }
+    .mobile-footer-image img {
+        width: 100%;
+        height: 200px;  
+    }
+    .other_work {
+        width: 100%;
+    }
+    .other_work-header {
+        padding: 0;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .other_work-header p {
+        width: 100%;
+        font-size: 12px;
+    }
+    .other_work-header a {
+        padding: 0;
+        margin: 0;
+        align-self: flex-start;
+    }
+    .other_work-info {
+        width: 90%;
+        text-align: center;
+    }
+    .other_work-info h1 {
+        font-size: 18px;
+        width: 100%;
+    }
+    .other_work-info-img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .other_work-info-img-1, .other_work-info-img-2 {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    .contacts {
+        padding: 0;
+        margin: 0;
+    }
+    .contacts-info {
+        border: #fc0505 1px solid;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .contacts-info-heading {
+        width: 80%;
+        padding: 0;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: #fc0505 1px solid;
+    }
+    .contacts-info-heading p {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+        font-size: 12px;
+        text-align: left;
+    }
+    .contacts-info-heading a {
+        align-self: flex-start;
+        padding: 0;
+        margin: 0;
+    }
 }
